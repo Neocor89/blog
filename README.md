@@ -1,27 +1,27 @@
-# Next.js + Tailwind CSS Example
+# **BENDEV BLOG**
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### Tools and Technologies Used
 
-## Deploy your own
+<div style="margin-top: 15px;" />
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- ![Safari](https://img.shields.io/badge/Sanity_V3-f03e2f?style=for-the-badge&logo=Sanity&logoColor=white)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- ![CMS preview](https://img.shields.io/badge/Sanity_CMS_PREV-F4462B.svg?style=for-the-badge&logo=sanity&logoColor=white)
 
-## How to use
+- ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+<!-- ```bash
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+``` -->
+
+#
+
+**APP RENDER**
+
+<img src="./public/assets/render-blog-asset-readme.png" alt="render app" />
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

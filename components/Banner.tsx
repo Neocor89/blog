@@ -8,7 +8,7 @@ function Banner() {
           Welcome to{" "}
         <span className="underline decoration-[#F9874F] text-white">
           Every Developers
-        </span>{" "} and 
+        </span>{" "}and 
         <span className="text-white underline decoration-[#F9874F]">
           Web3 Developers
         </span>{" "} creating great contents for us

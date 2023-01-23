@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className="bg-[#211F35]">
+        <body className="bg-[#211F35] max-w-7xl mx-auto">
           {/* USER HEADER */}
           <Header />
         

@@ -19,7 +19,7 @@ export default async function Homepage() {
   if (previewData()) {
     return (<PreviewSuspense fallback={(
       <div role="status">
-        <h1 className="font-bold text-white">
+        <h1 className="font-bold text-white text-center text-lg animate-pulse">
           Loading Preview Data...
         </h1>
       </div>

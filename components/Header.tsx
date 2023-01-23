@@ -18,12 +18,12 @@ function Header() {
       </div>
 
 
-      <div className="space-x-2">
+      <div className="">
       <Link 
             href="https://twitter.com/Bendevweb89/"
-            className="px-8 py-2 text-sm md:text-base bg-[#211F35] text-white flex items-center rounded-full"
+            className="px-8 py-2 text-sm md:text-base bg-[#211F35] text-white flex items-center rounded-full text-center"
           >
-            BenDevweb 
+            BenDevweb
           </Link>
       </div>
 

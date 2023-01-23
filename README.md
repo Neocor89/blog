@@ -1,18 +1,30 @@
-# **BENDEV BLOG**
+# **BENDEV <span style="color: #F9874F;">BLOG</span>**
 
-### Tools and Technologies Used
+<div style="margin-top: 25px;"></div>
+
+### **Tools and Technologies Used**
 
 <div style="margin-top: 15px;" />
 
-- ![Safari](https://img.shields.io/badge/Sanity_V3-f03e2f?style=for-the-badge&logo=Sanity&logoColor=white)
+- ![Sanity](https://img.shields.io/badge/Sanity_V3-f03e2f?style=for-the-badge&logo=Sanity&logoColor=white)
 
-- ![CMS preview](https://img.shields.io/badge/Sanity_CMS_PREV-F4462B.svg?style=for-the-badge&logo=sanity&logoColor=white)
+<div style="padding-top: 5px;"></div>
+
+- ![Sanity CMS prev](https://img.shields.io/badge/Sanity_CMS_PREV-F4462B.svg?style=for-the-badge&logo=sanity&logoColor=white)
+
+<div style="padding-top: 5px;"></div>
 
 - ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
+<div style="padding-top: 5px;"></div>
+
 - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+<div style="padding-top: 5px;"></div>
+
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+<div style="margin-bottom: 25px;"></div>
 
 <!-- ```bash
 
@@ -21,6 +33,8 @@
 #
 
 **APP RENDER**
+
+<div style="margin-bottom: 25px;"></div>
 
 <img src="./public/assets/render-blog-asset-readme.png" alt="render app" />
 

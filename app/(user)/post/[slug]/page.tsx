@@ -2,7 +2,8 @@ import { groq } from "next-sanity";
 import Image from "next/image";
 import { client } from "../../../../lib/sanity.client";
 import urlFor from "../../../../lib/urlFor";
-import author from "../../../../schemas/author";
+import { PortableText } from "@portabletext/react"
+import { RichTextComponents } from "../../../../components/RichTextComponents";
 
 type Props = {
   params: {
@@ -34,7 +35,6 @@ async function Post({params: { slug }}: Props) {
             fill
           />
           </div>
-
 
           <section className="p-5 bg-[#C5D2FC] w-full">
             <div className="flex flex-col md:flex-row justify-between gap-y-5">
@@ -80,6 +80,12 @@ async function Post({params: { slug }}: Props) {
           </section>
         </div>
       </section>
+      <div className="mt-14 text-white">
+      <PortableText 
+        value={post.body}
+        components={RichTextComponents}
+      />
+      </div>
     </article>
   )
 }

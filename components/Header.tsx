@@ -9,13 +9,13 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image 
-            width={35} 
-            height={35} 
+            width={25} 
+            height={25} 
             src="https://res.cloudinary.com/dwoifuutn/image/upload/v1674247731/logo-blog-rmbg_ait7gv.png"
             alt="BendevBlog logo profile" 
           />
         </Link>
-        <h1 className="font-semiblod italic font-playfair">BenDev Blog</h1>
+        <h1 className="font-[800] italic font-playfair">BenDev Blog</h1>
       </div>
 
 

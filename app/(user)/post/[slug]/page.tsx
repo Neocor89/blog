@@ -21,13 +21,9 @@ async function Post({params: { slug }}: Props) {
   `;
 
   const post: Post = await client.fetch(query, { slug });
-
-  
-  // TODO RESTART HERE LIGNE 40 👇
-
   
   return (
-    <article className="px-10 pb-28">
+    <article className="px-3 sm:px-10 pb-28">
       <section className="space-x-2 border border-[#C5D2FC] text-white">
         <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
           <div className="absolute top-0 w-full h-full opacity-20 blur-sm p-10">
@@ -43,11 +39,11 @@ async function Post({params: { slug }}: Props) {
           <section className="p-5 bg-[#C5D2FC] w-full">
             <div className="flex flex-col md:flex-row justify-between gap-y-5">
               <div className="">
-                <h1 className="text-[#211F35] text-4xl font-extrabold">
+                <h1 className="text-[#211F35] text-xl sm:text-4xl font-extrabold">
                   {post.title}
                 </h1>
 
-                <p className="text-[#211F35] sm:text-base text-xs">
+                <p className="pt-1.5 text-[#211F35] sm:text-base text-xs">
                   {new Date(post._createdAt).toLocaleDateString("en-US", {
                     day: "numeric",
                     month: "long",
@@ -72,7 +68,7 @@ async function Post({params: { slug }}: Props) {
             </div>
             
             <div>
-              <h2 className="italic pt-10 text-[#211F35]">
+              <h2 className="italic pt-6 sm:pt-10 text-[#211F35]">
                 {post.description}
               </h2>
               <div className="flex items-center justify-end mt-auto space-x-2">

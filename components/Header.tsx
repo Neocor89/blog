@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import LogoTwitter from "./LogoTwitter"
 
 function Header() {
   return (
@@ -19,16 +20,17 @@ function Header() {
 
 
       <div className="">
-      <Link 
+        <Link 
             href="https://twitter.com/Bendevweb89/"
             className="px-8 py-2 text-sm md:text-base bg-[#211F35] text-white flex items-center rounded-full text-center"
-          >
-            BenDevweb
-          </Link>
+        >
+          BenDevweb
+          <LogoTwitter className="text-[#C5D2FC] ml-3 mt-0.5" />
+        </Link>
       </div>
 
     </header>
   )
 }
 
-export default Header
+export default Header;

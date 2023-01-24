@@ -10,7 +10,7 @@
 
 <div style="padding-top: 5px;"></div>
 
-- ![Sanity CMS prev](https://img.shields.io/badge/Sanity_CMS_PREV-F4462B.svg?style=for-the-badge&logo=sanity&logoColor=white)
+- ![Sanity CMS prev](https://img.shields.io/badge/Sanity_CMS-F4462B.svg?style=for-the-badge&logo=sanity&logoColor=white)
 
 <div style="padding-top: 5px;"></div>
 
@@ -32,10 +32,16 @@
 
 #
 
-**APP RENDER**
+## <span style="color: #C5D2FC">**APP RENDER**</span>
 
 <div style="margin-bottom: 25px;"></div>
 
 <img src="./public/assets/render-blog-asset-readme.png" alt="render app" />
+
+<div style="margin-bottom: 55px;"></div>
+
+<img src="./public/assets/render-blog-desktop-asset-readme.png" />
+
+#
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

@@ -15,7 +15,7 @@ function Header() {
             alt="BendevBlog logo profile" 
           />
         </Link>
-        <h1 className="font-blod">BenDev Blog</h1>
+        <h1 className="font-semiblod italic font-playfair">BenDev Blog</h1>
       </div>
 
 

@@ -6,7 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfair: ["Playfair Display", "sans-serif"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/line-clamp")],
 };

@@ -80,7 +80,7 @@ async function Post({params: { slug }}: Props) {
           </section>
         </div>
       </section>
-      <div className="mt-14 text-white">
+      <div className="mt-20 text-white text-base sm:text-lg lg:text-xl">
       <PortableText 
         value={post.body}
         components={RichTextComponents}

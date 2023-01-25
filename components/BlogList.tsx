@@ -18,7 +18,7 @@ function BlogList({ posts }: Props) {
         <ClientSideRoute key={post._id} route={`/post/${post.slug.current}`}>
         <div className="flex flex-col group cursor-pointer">
 
-          <div className="relative w-full max-w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
+          <div className="relative w-full max-w-full h-72 sm:h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
             <Image 
               className="object-cover lg:object-center"  
               src={urlFor(post.mainImage).url()}
@@ -26,7 +26,7 @@ function BlogList({ posts }: Props) {
               fill
             />
 
-            <div className="absolute bottom-0 w-full bg-opacity-20 bg-[#C5D2FC] backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
+            <div className="absolute bottom-0 w-full bg-opacity-05 sm:bg-opacity-20 bg-[#C5D2FC] backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
               <div className="">
                 <p className="font-bold sm:text-base text-xs">
                   {post.title}
